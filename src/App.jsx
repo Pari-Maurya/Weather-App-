@@ -1,18 +1,12 @@
-import Button from '@mui/material/Button';
+import SearchBox from './SearchBox';
 
 function App() {
-  let handleClick = () =>{
-    alert("Button clicked!");
-  }
 
   return (
     <>
-      <h1>Material UI</h1>
-      <Button variant="contained" color="primary" onClick={handleClick}>
-        Click me!
-      </Button>
+      <SearchBox />
     </>
   )     
 }
 
-export default App
+export default App;
