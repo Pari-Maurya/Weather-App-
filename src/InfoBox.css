@@ -1,0 +1,9 @@
+.info-box{
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.mainBox{
+    display: flex;
+    justify-content: center;
+}
